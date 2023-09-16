@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+/* body{
+    color: white;
+} */
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.841),rgba(0, 0, 0, 0.326),rgba(0, 0, 0, 0.803)),url("./images/IN-en-20230807-popsignuptwoweeks-perspective_alpha_website_small.jpg") ;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding:7px 10px ;
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.header-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+.header-content h1{
+    font-size: 3.125rem;
+    font-weight:1000;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    
+
+}
+.header-content h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    color: white;
+
+}
+.email{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.email input{
+    width: 540px;
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: #00000086;
+    border: 1px solid white;
+    color: whitesmoke;
+}
+.email button{
+    width: 190px;
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    padding: 6px;
+    border: 0;
+    font-weight: bold;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+section{
+    display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+    gap: 46px;
+    padding: 70px 35px;
+    align-items: center;
+    border-top: 8px solid #222;
+}
+.last{
+    border-bottom: 8px solid #222;;
+}
+.texts h1{
+    font-size: 3.125rem;
+    margin-bottom: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
+}
+.texts p{
+    font-size: 1.625rem;
+}
+.media{
+    position: relative;
+}
+.media .s1 img{
+    max-width: 548px;
+    z-index: 9;
+    position: relative;
+    
+
+}
+.media .s1 video{
+    max-width: 393px;
+    position: absolute;
+    top: 88px;
+    left:78px;
+}
+section:nth-child(even) div.texts{
+    order: 2;
+}
+.stranger{
+    position: relative;
+}
+.stranger img{
+    max-width: 540px;
+}
+section div.download{
+    border: 2px solid #666;
+    border-radius: 15px;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    position: absolute;
+    top: 300px;
+    left: 125px;
+    background-color: black;
+}
+section div.download img{
+    height: 100%;
+    width: auto;
+}
+.aaa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aaa h3{
+    font-size: 1.2rem;
+}
+.aaa span{
+    color: rgb(0, 128, 255);
+}
+.media .s2 img{
+    max-width: 598px;
+    z-index: 9;
+    position: relative;
+    
+
+}
+.media .s2 video{
+    max-width: 363px;
+    position: absolute;
+    top: 50px;
+    left:108px;
+}
+.singh{
+    padding: 70px;
+    margin-top: 100px;
+}
+.freq h1{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+
+}
+
+.acor{
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+.ac{
+    padding:50px 150px;
+}
+ul {
+    width: 75%;
+    margin: 72px auto;
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  details {
+    background: #303030;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  details summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    padding: 20px 56px;
+  }
+  
+  details summary i {
+    transition: 0.15s;
+  }
+  
+  details[open] summary i {
+    transform: rotate(45deg);
+  }
+  
+  details p {
+    padding: 26px;
+    border-top: 1px solid #000;
+  }
+  .member h4{
+    text-align: center;
+    font-weight: 500;
+  }
+  .grey{
+    background-color: rgb(12, 12, 12);
+    border: 1px solid grey;
+  }
+  .member{
+    border-bottom: 8px solid #222;;
+  }
+  footer span{
+    text-decoration: underline;
+  }
+  .head{
+    margin-left: 200px;
+  } 
+  footer a{
+    color: whitesmoke;
+  }
+  footer h5{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  footer{
+    padding-bottom: 100px;
+  }
+  .sss .texts{
+    margin-top: 50px;
+  }
+  .qn{
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width:700px) {
+    .email input{
+        width: 350px;
+        padding: 5px;
+        font-size: 1rem;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #00000086;
+        border: 1px solid white;
+    }
+    .email button{
+        width: 120px;
+        height: 50px;
+        background-color: rgb(255, 12, 12);
+        color: white;
+        font-size: 1rem;
+        padding: 6px;
+        border: 0;
+        margin-top: 5px;
+        
+    }
+    .media .s1 img{
+        max-width: 348px;
+        z-index: 9;
+        position: relative;
+        
+    
+    }
+    .media .s1 video{
+        max-width: 263px;
+        position: absolute;
+        top: 56px;
+        left:48px;
+       
+    }
+    section div.download{
+       max-width: 240px;
+       height: 80px;
+       left: 35px;
+       top: 170px;
+    }
+    .aaa h3{
+        font-size: 1rem;
+    }
+    .aaa span{
+        font-size: 15px;
+    }
+    .stranger img{
+        max-width: 310px;
+    }
+    .media .s2 img{
+        max-width: 348px;
+        
+    
+    }
+    .media .s2 video{
+        max-width: 220px;
+        position: absolute;
+        top: 25px;
+        left:68px;
+    }
+    .logo{
+        width: 110px;
+        
+    }
+    .header{
+        height: 65vh;
+        
+
+    }
+    .header-content h1{
+        font-size: 2.425rem;
+        font-weight:1000;
+        font-family: 'Lato', sans-serif;
+        color: white;
+    
+    }
+    .header-content h3{
+        font-size: 1rem;
+        font-weight: 200;
+        margin-top: 10px;
+        color: white;
+        text-align: center;
+    
+    }
+    .header-content{
+        top: 25%;
+    }
+    .texts h1{
+        font-size: 2.325rem;
+        text-align: center;
+    
+    }
+    .texts p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    section{
+        padding: 15px;
+    }
+    .singh{
+        padding: 0px;
+    }
+    .head{
+        margin-left: 50px;
+    }
+    ul{
+        margin: 10px;
+        max-width: 370px;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+    .freq h1{
+        font-size: 2rem;
+    }
+
+  }
